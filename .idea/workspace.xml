@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c996513-7986-41a0-9c58-2b8d605e3917" name="Default Changelist" comment="" />
+    <list default="true" id="4c996513-7986-41a0-9c58-2b8d605e3917" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ecommerce-application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ecommerce-application/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ecommerce-application" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -105,6 +110,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WCiSNCf8Nhq67jJF9ap3l0KPuO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -113,7 +119,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce-application" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -144,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578659975445</updated>
       <workItem from="1578659979471" duration="700000" />
-      <workItem from="1578720603504" duration="246000" />
+      <workItem from="1578720603504" duration="800000" />
     </task>
     <servers />
   </component>
@@ -156,13 +163,17 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="59" width="800" height="684" key="#Composer/0.27.1366.741@0.27.1366.741" timestamp="1578660054582" />
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1578660877652">
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1578721386854">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1578660877652" />
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1578721386854" />
     <state x="266" y="136" width="824" height="530" key="IDE.errors.dialog" timestamp="1578720874246">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="266" y="136" width="824" height="530" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1578720874246" />
+    <state x="194" y="31" width="977" height="737" key="SettingsEditor" timestamp="1578721405551">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="194" y="31" width="977" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1578721405551" />
   </component>
 </project>
