@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         \App\Providers\SettingsServiceProvider::class,
+        \App\Providers\RepositoryServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -227,6 +228,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'SettingService' => \App\Providers\SettingsServiceProvider::class,
+
     ],
 
 ];

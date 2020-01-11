@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c996513-7986-41a0-9c58-2b8d605e3917" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,12 +137,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/frontend" />
       <recent name="$PROJECT_DIR$/resources/backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
+      <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -183,7 +177,7 @@
       <workItem from="1578659979471" duration="700000" />
       <workItem from="1578720603504" duration="11076000" />
       <workItem from="1578744307291" duration="3808000" />
-      <workItem from="1578749580224" duration="13769000" />
+      <workItem from="1578749580224" duration="24618000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1578721465737</created>
@@ -206,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578742527004</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Settings Part 1&quot;">
+      <created>1578774871838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578774871838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;second commit&quot;" />
     <MESSAGE value="&quot;Dashboard Design&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dashboard Design&quot;" />
+    <MESSAGE value="&quot;Settings Part 1&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Settings Part 1&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="59" width="800" height="684" key="#Composer" timestamp="1578660054582">
@@ -239,10 +241,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="273" y="59" width="800" height="684" key="#Deployment/0.27.1366.741@0.27.1366.741" timestamp="1578721553830" />
-    <state x="262" y="27" width="832" height="741" key="CommitChangelistDialog2" timestamp="1578742526839">
+    <state x="262" y="27" width="832" height="741" key="CommitChangelistDialog2" timestamp="1578774870859">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="262" y="27" width="832" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1578742526839" />
+    <state x="262" y="27" width="832" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1578774870859" />
     <state x="100" y="127" width="1166" height="541" key="DiffContextDialog" timestamp="1578721630210">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -255,33 +257,53 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="266" y="136" width="824" height="530" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1578720874246" />
-    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog" timestamp="1578773287848">
+    <state x="370" y="217" width="615" height="367" key="NewPhpClassDialog" timestamp="1578781723354">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1578773287848" />
+    <state x="370" y="217" width="615" height="367" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1578781723354" />
+    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog" timestamp="1578784386409">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1578784386409" />
     <state x="194" y="31" width="977" height="737" key="SettingsEditor" timestamp="1578744184418">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="194" y="31" width="977" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1578744184418" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578742540697">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578774886276">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1578742540697" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1578774886276" />
     <state x="488" y="317" width="390" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578721654029">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="488" y="317" width="390" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1578721654029" />
-    <state x="375" y="145" width="637" height="504" key="find.popup" timestamp="1578742791687">
+    <state x="375" y="145" width="637" height="504" key="find.popup" timestamp="1578781146933">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="375" y="145" width="637" height="504" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1578742791687" />
+    <state x="375" y="145" width="637" height="504" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1578781146933" />
     <state width="602" height="369" key="javadoc.popup" timestamp="1578764085230">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="602" height="369" key="javadoc.popup/0.27.1366.741@0.27.1366.741" timestamp="1578764085230" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578774793886">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1578784319105">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578774793886" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1578784319105" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578785637303">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1578785637303" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/frontend/plugins/prism/prism.js</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
