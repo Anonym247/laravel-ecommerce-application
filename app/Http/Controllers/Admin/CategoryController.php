@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Contracts\CategoryContract;
 use App\Http\Controllers\BaseController;
 use App\Http\Controllers\Controller;
+use App\Traits\Uploadable;
 use Illuminate\Http\Request;
 
 class CategoryController extends BaseController
@@ -52,5 +53,43 @@ class CategoryController extends BaseController
         }
 
         return $this->responseRedirect('admin.categories.index', 'The category added successfully', 'success', false, false);
+    }
+
+    public function edit($id)
+    {
+        $targetCategory = $this->categoryRepository->findCategoryById($id);
+        $categories = $this->categoryRepository->listCategories();
+
+        $this->setPageTitle('Categories', 'Edit Category : ' . $targetCategory->name);
+        return view('admin.categories.edit', compact('categories', 'targetCategory'));
+    }
+
+    public function update(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required|max:191',
+            'parent_id' => 'required|not_in:0',
+            'image' => 'mimes:jpg,jpeg,png|max:1000',
+        ]);
+
+        $params = $request->except('_token');
+
+        $category = $this->categoryRepository->updateCategory($params);
+
+        if (!$category)
+        {
+            return $this->responseRedirectBack('Error! Category can not been updated', 'error', true, true);
+        }
+        return $this->responseRedirect('admin.categories.index','Success! Category is updated successfully!', 'success', false, false);
+    }
+
+    public function delete($id)
+    {
+        $category =  $this->categoryRepository->deleteCategory($id);
+
+        if (!$category)
+            return $this->responseRedirectBack('Error occurred while deleting a category', 'error', true, true);
+
+        return $this->responseRedirect('admin.categories.index', 'Success! The category deleted successfully!', 'success', false, false);
     }
 }

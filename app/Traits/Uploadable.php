@@ -9,8 +9,7 @@ trait Uploadable
 {
     public function uploadOne(UploadedFile $file, $folder = null, $disk = 'public', $filename = null)
     {
-        $name = !isNull($filename) ? $filename : Str::random(25);
-
+        $name = $filename ? $filename : Str::random(25);
         return $file->storeAs(
             $folder,
             $name . "." . $file->getClientOriginalExtension(),

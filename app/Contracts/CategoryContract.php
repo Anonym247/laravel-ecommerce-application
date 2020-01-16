@@ -12,6 +12,4 @@ interface CategoryContract
     public function updateCategory(array $params);
 
     public function deleteCategory(int $id);
-
-
 }

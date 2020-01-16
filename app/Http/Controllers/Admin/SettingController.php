@@ -10,6 +10,7 @@ use Illuminate\Http\UploadedFile;
 
 class SettingController extends BaseController
 {
+    use Uploadable;
     public function index()
     {
         $this->setPageTitle('Settings', 'Manage Settings');

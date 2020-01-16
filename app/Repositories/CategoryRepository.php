@@ -42,7 +42,6 @@ class CategoryRepository extends BaseRepository implements CategoryContract
 
     public function createCategory(array $params)
     {
-
         $image = null;
         try
         {
@@ -76,19 +75,22 @@ class CategoryRepository extends BaseRepository implements CategoryContract
 
         $collection = collect($params)->except('_token');
 
+
         if ($collection->has('image') && $params['image'] instanceof UploadedFile)
         {
             if ($category->image != null)
             {
                 $this->deleteOne($category->image);
             }
-
             $image = $this->uploadOne($params['image'], 'categories');
         }
         $featured = $collection->has('featured') ? 1 : 0;
         $menu = $collection->has('menu') ? 1 : 0;
 
-        $merge = $collection->merge(compact('menu', 'image', 'featured'));
+        if ($collection->has('image') && $params['image'] instanceof UploadedFile)
+            $merge = $collection->merge(compact('menu', 'image', 'featured'));
+        else
+            $merge = $collection->merge(compact('menu', 'featured'));
 
         $category->update($merge->all());
 
