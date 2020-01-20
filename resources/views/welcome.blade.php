@@ -94,6 +94,11 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                    <script src="{{asset('backend/js/app.js')}}"></script>
+                    <script src="https://unpkg.com/vue"></script>
+                <div id="tess">
+                    <test></test>
+                </div>
             </div>
         </div>
     </body>
