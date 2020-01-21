@@ -50,5 +50,17 @@
                 <span class="app-menu__label">Attributes</span>
             </a>
         </li>
+        <li>
+            <a href="{{route('admin.brands.index')}}" class="app-menu__item {{Route::currentRouteName() == 'admin.brands.index' ? 'active' : ''}}">
+                <i class="app-menu__icon fa fa-briefcase"></i>
+                <span class="app-menu__label">Brands</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{route('admin.products.index')}}" class="app-menu__item {{Route::currentRouteName() == 'admin.products.index' ? 'active' : ''}}">
+                <i class="app-menu__icon fa fa-shopping-bag"></i>
+                <span class="app-menu__label">Products</span>
+            </a>
+        </li>
     </ul>
 </aside>
