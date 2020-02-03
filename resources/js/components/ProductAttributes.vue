@@ -168,6 +168,7 @@
                         _this.valueSelected = false;
                     }).catch(function (error) {
                         console.log(error);
+                        console.log('problem');
                     });
                     this.loadProductAttributes(this.productid);
                 }
@@ -201,6 +202,7 @@
                         this.$swal("Action cancelled!");
                     }
                 });
+
             }
         }
     }

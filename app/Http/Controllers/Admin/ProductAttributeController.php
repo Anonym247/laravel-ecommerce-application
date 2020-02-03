@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class ProductAttributeController extends Controller
 {
-    public function loadAttribute()
+    public function loadAttributes()
     {
         $attributes = Attribute::all();
 

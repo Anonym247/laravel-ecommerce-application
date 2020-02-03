@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4c996513-7986-41a0-9c58-2b8d605e3917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductAttributeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductAttributeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/ProductAttribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProductAttribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/products/iNndEmnM3GBYqGLBmrIWPBg92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ProductAttributes.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ProductAttributes.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +213,8 @@
       <workItem from="1579773095419" duration="612000" />
       <workItem from="1579776172249" duration="1522000" />
       <workItem from="1579853977562" duration="3291000" />
-      <workItem from="1580718113053" duration="115000" />
+      <workItem from="1580718113053" duration="1542000" />
+      <workItem from="1580726247563" duration="1673000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second commit&quot;">
       <created>1578721465737</created>
@@ -326,10 +329,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1578721630210" />
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579860468223">
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580719653196">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1579860468223" />
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580719653196" />
     <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1579516669504">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -354,10 +357,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="370" y="217" width="615" height="388" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1579605422142" />
-    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog" timestamp="1579608124461">
+    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog" timestamp="1580727918482">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1579608124461" />
+    <state x="518" y="324" width="319" height="154" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1580727918482" />
     <state x="194" y="31" width="977" height="737" key="SettingsEditor" timestamp="1578744184418">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -374,10 +377,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="488" y="317" width="390" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1579175042601" />
-    <state x="375" y="145" width="637" height="504" key="find.popup" timestamp="1579590196374">
+    <state x="375" y="145" width="637" height="504" key="find.popup" timestamp="1580726482446">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="375" y="145" width="637" height="504" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1579590196374" />
+    <state x="375" y="145" width="637" height="504" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1580726482446" />
     <state width="602" height="369" key="javadoc.popup" timestamp="1578764085230">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -386,10 +389,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1578784319105" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579854567079">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580727801398">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1579854567079" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1580727801398" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
