@@ -241,9 +241,6 @@
             </div>
         </div>
     </div>
-    <form action="{{route('admin.products.images.upload')}}" class="dropzone" id="myDrop" method="POST">
-        <button id="submit-all">Submit all files</button>
-    </form>
 @endsection
 @push('scripts')
     <script type="text/javascript" src="{{ asset('backend/js/plugins/select2.min.js') }}"></script>
@@ -293,19 +290,4 @@
             }
         });
     </script>
-
-{{--    <script>--}}
-{{--        Dropzone.autoDiscover = false;--}}
-{{--        Dropzone.options.myDrop = {--}}
-{{--            autoProcessQueue: false,--}}
-{{--            init : function () {--}}
-{{--                let submitButton = document.querySelector("#submit-all")--}}
-{{--                myDrop = this;--}}
-
-{{--                submitButton.addEventListener("click", function () {--}}
-{{--                    myDrop.processQueue();--}}
-{{--                });--}}
-{{--            }--}}
-{{--        }--}}
-{{--    </script>--}}
 @endpush
